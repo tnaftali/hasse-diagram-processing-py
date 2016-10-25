@@ -20,7 +20,6 @@ def print_diagram(array, matrix, number):
     print(dot.source)
 
 
-
 def print_matrix(matrix):
     print "------------"
     for i in range(len(matrix)):
