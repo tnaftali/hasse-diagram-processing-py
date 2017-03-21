@@ -6,18 +6,18 @@ import bisect
 
 def main():
     manual_input()
-    print 'Another one?'
-    repeat = raw_input('\'Y\' \'N\':')
+    print('Another one?')
+    repeat = input('\'Y\' \'N\':')
     while repeat.lower() == 'y':
         manual_input()
-        print 'Another one?'
-        repeat = raw_input('\'Y\' \'N\':')
+        print('Another one?')
+        repeat = input('\'Y\' \'N\':')
 
 
 def manual_input():
     n = Input.insert_number()
     divisors = get_divisors(n)
-    print 'Divisors: ' + str(divisors)
+    print('Divisors: ' + str(divisors))
     get_matrix(divisors, n)
 
 
@@ -44,7 +44,7 @@ def get_matrix(divisors, n):
                 arr.append(0)
         matrix.append(arr)
     Output.print_matrix(matrix)
-    Output.print_diagram(divisors, matrix, n)
+    Output.save_diagram(divisors, matrix)
 
 
 def divides(x, y):
@@ -52,11 +52,11 @@ def divides(x, y):
 
 
 def print_number(n):
-    print '{' + str(n) + '}'
+    print('{' + str(n) + '}')
 
 
 def print_line():
-    print '--------------------'
+    print('--------------------')
 
 
 main()
