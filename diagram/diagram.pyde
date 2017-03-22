@@ -3,7 +3,6 @@ from Node import Node
 import hasse
 import input_data
 
-
 max_width = 1300
 max_height = 700
 

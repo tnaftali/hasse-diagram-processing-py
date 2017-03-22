@@ -14,7 +14,6 @@ def save_diagram(array, matrix):
                     line += str(int(array[j]))
                     if j + 1 < len(matrix[i]):
                         line += ','
-        print(line)
         file.write(line)
         file.write('\n')
     file.close()
