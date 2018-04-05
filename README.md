@@ -4,3 +4,5 @@ This algorithm creates Hasse diagrams for divisibility relations (partial order 
 
 Here are some images of the program:
 https://imgur.com/a/mtNLl
+
+Hasse diagram definition: https://en.wikipedia.org/wiki/Hasse_diagram
