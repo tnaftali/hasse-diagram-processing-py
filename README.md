@@ -4,13 +4,22 @@ This algorithm creates Hasse diagrams for divisibility relations (partial order 
 
 ## Some examples
 
-![](https://github.com/tnaftali/hasse-diagram-processing-py/blob/master/1.png?raw=true)
-![](https://github.com/tnaftali/hasse-diagram-processing-py/blob/master/2.png?raw=true)
+### Input
+![](https://raw.githubusercontent.com/tnaftali/hasse-diagram-processing-py/master/examples/1.png)
 
-![](https://github.com/tnaftali/hasse-diagram-processing-py/blob/master/3.png?raw=true)
-![](https://github.com/tnaftali/hasse-diagram-processing-py/blob/master/4.png?raw=true)
+### Output
+![](https://raw.githubusercontent.com/tnaftali/hasse-diagram-processing-py/master/examples/2.png)
 
-![](https://github.com/tnaftali/hasse-diagram-processing-py/blob/master/5.png?raw=true)
-![](https://github.com/tnaftali/hasse-diagram-processing-py/blob/master/6.png?raw=true)
+### Input
+![](https://raw.githubusercontent.com/tnaftali/hasse-diagram-processing-py/master/examples/3.png)
+
+### Output
+![](https://raw.githubusercontent.com/tnaftali/hasse-diagram-processing-py/master/examples/4.png)
+
+### Input
+![](https://raw.githubusercontent.com/tnaftali/hasse-diagram-processing-py/master/examples/5.png)
+
+### Output
+![](https://raw.githubusercontent.com/tnaftali/hasse-diagram-processing-py/master/examples/6.png)
 
 Hasse diagram definition: https://en.wikipedia.org/wiki/Hasse_diagram
